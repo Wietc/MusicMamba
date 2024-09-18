@@ -1,0 +1,10 @@
+causal_conv1d==1.3.0.post1
+einops==0.8.0
+flash_attn==2.6.3
+huggingface_hub==0.22.2
+mamba_ssm==2.1.0
+miditoolkit==1.0.1
+numpy==1.24.3
+packaging==24.1
+torch==2.2.1
+transformers==4.32.1

@@ -51,7 +51,7 @@ We currently do not offer fine-tuning functionality.
 │   ├── argument_funcs.py   Some arguments for generating.
 │   ├── constants.py        
 │   └── device.py           
-└── README.md              Readme
+└── README.md               Readme
 ```
 
 ## Citation

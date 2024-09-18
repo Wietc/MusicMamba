@@ -23,6 +23,7 @@ This is the official implementation of MusicMamba.
 
 * install checkpoints from Huggingface
   
+    `https://huggingface.co/moersxm12138/MusicMamba`
 
 ## To train the model with GPU
 

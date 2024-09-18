@@ -36,9 +36,10 @@ We currently do not offer fine-tuning functionality.
 ```
 `
 ├── data                    Stores train, test and val data.
-│   ├── train
-│   ├── test
-│   └── val
+│   └── FolkDB              
+│       ├── train
+│       ├── test
+│       └── val
 ├── dataset.py              Progress datasets.
 ├── generate.py             For generating music. (Detailed usage are written in the file)
 ├── model.py                The MusicMamba Architecture.

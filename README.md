@@ -4,36 +4,37 @@ This is the official implementation of MusicMamba.
 
 *Checkout our demo and paper* : [Demo](https://moersxm.github.io/MusicMamba_Demo/) | [arXiv](https://arxiv.org/abs/2409.02421)
 
-## Environment: 
+## Environment
 * Clone this Repo 
 
     ```bash
-    git clone https://github.com/moersxm/MusicMamba.git -b main --single-branch
+    git clone https://github.com/Wietc/MusicMamba.git
     ```
 
 * using python version 3.11.5
 * using pytorch version 2.2.1
-* 
-* install python dependencies: 
+* install python dependencies
 
     `pip install -r requirements.txt`
 
-* Mamba needs to be downloaded separately:
+* Mamba needs to be downloaded separately
   
     `pip install mamba_ssm`
 
-## To train the model with GPU:
+* install checkpoints from Huggingface
+  
+
+## To train the model with GPU
 
 We currently do not offer fine-tuning functionality.
 
-## To generate music:
+## To generate music
 
 `python generate.py`
 
 ##  Details of the files in this repo
 ```
-.
-├── checkpoints             For saving checkpoints while training.
+`
 ├── data                    Stores train, test and val data.
 │   ├── train
 │   ├── test

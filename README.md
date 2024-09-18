@@ -33,6 +33,8 @@ We currently do not offer fine-tuning functionality.
 
 `python generate.py`
 
+* The specification of the model path, data path, and other generated parameters are in the `utilities/argument_funcs.py` file.
+
 ##  Details of the files in this repo
 ```
 `
